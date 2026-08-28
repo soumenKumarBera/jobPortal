@@ -72,7 +72,7 @@ public class AppConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-                List.of("http://localhost:3000")
+                List.of("https://jobportal-frontend-jd13.onrender.com")
         );
 
         configuration.setAllowedMethods(
