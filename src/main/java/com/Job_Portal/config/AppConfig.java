@@ -48,7 +48,7 @@ public class AppConfig {
 
         http.authorizeHttpRequests(req->req
 
-                .requestMatchers("/auth/login", "/users/**").permitAll()
+                .requestMatchers("/login", "/auth/login", "/users/**").permitAll()
                 .anyRequest().authenticated()
 
         );
